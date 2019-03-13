@@ -1,0 +1,31 @@
+.wrap{width:1400px;margin:92px auto 0px auto;}
+.wrap>h2{padding-top:64px;text-align:center;}
+.wrap>.gal-gride{width:1140px;height:586px;padding:64px 15px;margin:0 auto;}
+.wrap>.gal-gride>ul>li{width:350px;height:273px;float:left;overflow:hidden;margin:10px 15px;}
+.wrap>.gal-gride>ul>li>.gride-img{width:350px;height:273px;overflow:hidden;position:relative;}
+.wrap>.gal-gride>ul>li>.gride-img>h3{font:200 30px Raleway;margin:5px 0 0 10px;z-index:99;position:absolute;color:white;top:30px;left:30px;}
+.wrap>.gal-gride>ul>li>.gride-img>h3>span{font:800 30px Raleway;}
+.wrap>.gal-gride>ul>li>.gride-img>.mask{width:350px;height:273px;background:linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);z-index:-99;color:white;overflow:hidden;}
+.wrap>.gal-gride>ul>li>.gride-img>.mask.active{width:350px;height:273px;background:linear-gradient(45deg, #ff89e9 30%,#05abe0 100%);z-index:-99;color:white;}
+.wrap>.gal-gride>ul>li>.gride-img>.mask>img{width:410px;height:273px;z-index:1;opacity:0.8;position:absolute;top:0px;left:0px;}
+.wrap>.gal-gride>ul>li:hover>.gride-img>.mask>img{transform: translate3d(-50px,0,0);   transition: opacity 0.35s, transform 0.35s;}
+.wrap>.gal-gride>ul>li>.gride-img>.mask>.gal-cover{width:288px;height:210px;z-index:99;position:absolute;right:-300px;top:30px;border:1px solid white;}
+.wrap>.gal-gride>ul>li>.gride-img>.mask>.gal-cover>h3{visibility:hidden;}
+.wrap>.gal-gride>ul>li>.gride-img>.mask>.gal-cover>p{font:800 12px Raleway;margin:20px 0 0 10px;line-height:1.8em;padding-top:30px;}
+
+.wrap>.rwindow{width:100%;height:1510px;z-index:100;background:rgba(28, 29, 21, 0.6);position:absolute;top:0;left:0;display:none;}
+.wrap>.regis{width:640px;height:426px;margin:0 auto;border:5px solid gray;position:fixed;top:200px;left:400px;display:none;z-index:120;}
+.wrap>.regis>.button{width:640px;height:426px;position:absolute;top:213px;display:none;}
+.wrap>.regis>.button>.prev{float:left;width:32px;height:32px;}
+.wrap>.regis>.button>.prev>img{width:100%;}
+.wrap>.regis>.button>.next{float:right;width:32px;height:32px;}
+.wrap>.regis>.button>.next>img{width:100%;}
+
+
+.wrap>.regis>.big-img{width:100%;}
+.wrap>.regis>.close{width:32px;height:32px;position:absolute;right:-35px;top:-35px;}
+.wrap>.regis>.close>img{width:32px;height:32px;}
+
+
+
+

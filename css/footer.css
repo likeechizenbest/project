@@ -1,0 +1,18 @@
+/*footer*/
+.wrap>.footer{width:1400px;height:205px;padding:64px 0px;background:blue;background:#3b363d;position:relative;}
+.wrap>.footer>.foot-content{width:1140px;height:205px;margin:0 auto;}
+.whiteh{color:#FFFFFF;font-size: 1.5em;margin: 0 0 1em 0;letter-spacing: 1px;font-family: 'Raleway', sans-serif;}
+.wrap>.footer>.foot-content>ul{width:1140px;height:205px;overflow:hidden;}
+.wrap>.footer>.foot-content>ul>li{width:255px;height:175px;padding:0px 15px;float:left;position:relative;bottom:-200px;}
+.wrap>.footer>.foot-content>ul>li>.foot-event>ul>li>a{color:white;}
+.wrap>.footer>.foot-content>ul>li>.foot-event>ul>li>a:hover{color:orange;}
+.wrap>.footer>.foot-content>ul>li>.foot-navi>ul>li>a{color:#999999;}
+.wrap>.footer>.foot-content>ul>li>.foot-navi>ul>li>a:hover{color:orange;}
+.wrap>.footer>.foot-content>ul>li>.foot-new>form>input.email{width:233px;height:20px;padding:10px;margin-bottom:14px;}
+.wrap>.footer>.foot-content>ul>li>.foot-new>form>input.sub{width:112px;height:36px;padding:7px 28px;font-size:.875em;border:1px solid #bdcd00;background:#bdcd00;transition:background 0.3s linear;}
+.wrap>.footer>.foot-content>ul>li>.foot-new>form>input.sub:hover{color:white;border:1px solid white;background:transparent;}
+
+/*copy*/
+.wrap>.copy{width:1400px;height:20px;padding:16px 0px;background:#212121;position:relative;}
+.wrap>.copy>.top{width:40px;height:40px;border-radius:50%;z-index:99;position:fixed;bottom:20px;right:20px;display:none;}
+.wrap>.copy>p{width:1140px;height:20px;color:#999999;font:15px Roboto Condensed;text-align:center;margin:0 auto;overflow:hidden;}

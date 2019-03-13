@@ -1,0 +1,103 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+ul{list-style:none;}
+.wrap{width:1400px;margin:0 auto;}
+/*header*/
+.wrap>.banner{width:1400px;height:840px;position:relative;}
+div.wrap>.banner>.banner-bg>.banner-top{position:absolute;top:0px;z-index:99;}
+div.wrap>.banner>.banner-bg>.banner-top>.header{width:1400px;height:60px;padding:16px 0px;margin:0px auto;}
+div.wrap>.banner>.banner-bg>.banner-top>.header>.head-content{width:1140px;height:60px;margin:0 auto;}
+sup {font:300 14px arial;top:-2em;color:white;position:relative;}
+div.wrap>.banner>.banner-bg>.banner-top>.header>.head-content>.icon{width:160px;height:38px;float:right;position:relative;top:30px;}
+div.wrap>.banner>.banner-bg>.banner-top>.header>.head-content>.icon>ul>li{width:18px;height:18px;float:left;margin:5px;}
+div.wrap>.banner>.banner-bg>.banner-top>.header>.head-content>.icon>ul>li:hover{opacity:0.6;}
+div.wrap>.banner>.banner-bg>.banner-top>.header>.head-content>.icon>ul>li>a>img{width:100%;}
+div.wrap>.banner>.banner-bg>.banner-top>.navbar{width:1110px;height:54px;padding:15px 0px;margin:0 auto;}
+div.wrap>.banner>.banner-bg>.banner-top>.navbar>a{display:block;width:150px;height:20px;float:left;border:1px solid rgba(255,255,255,0.54);
+	padding:16px;font:600 1em Roboto Condensed;color:white;text-align:center;letter-spacing:1px;transition:background 0.3s linear;}
+div.wrap>.banner>.banner-bg>.banner-top>.navbar>a:hover{background:rgba(255, 255, 255, 0.78);color:black;}
+
+
+
+.wrap>.banner>.banner-bg{width:1400px;height:840px;}
+.wrap>.banner>.banner-bg>.button{z-index:99;position:relative;top:400px;background:transparent;}
+.wrap>.banner>.banner-bg>.button>.but-left{float:left;}
+.wrap>.banner>.banner-bg>.button>.but-left>img{margin-left:50px;width:64px;height:64px;}
+.wrap>.banner>.banner-bg>.button>.but-right{float:right;}
+.wrap>.banner>.banner-bg>.button>.but-right>img{margin-right:50px;width:64px;height:64px;}
+.wrap>.banner>.banner-bg>.bg-img{width:1400px;height:840px;z-index:0;position:relative;}
+.wrap>.banner>.banner-bg>.bg-img>ul.img{width:100%;height:840px;}
+.wrap>.banner>.banner-bg>.bg-img>ul.img>li{width:1400px;height:840px;position:absolute;top:0px;left:0px;}
+.wrap>.banner>.banner-bg>.bg-img>ul.img>li>img{width:1400px;height:840px;opacity:0;}
+.wrap>.banner>.banner-bg>.bg-img>ul.img>li:first-child>img{opacity:1;}
+.wrap>.banner>.banner-info{width:1140px;height:268px;background:transparent;
+	z-index:1;position:absolute;top:0px;left:145px;text-align:center;color:white;margin:256px auto;}
+	.wrap>.banner>.banner-info>ul.word{position:relative;}
+.wrap>.banner>.banner-info>ul.word>li{display:none;position:absolute;top:0px;left:0px;}
+.wrap>.banner>.banner-info>ul.word>li:first-child{display:block;}
+.wrap>.banner>.banner-info>ul.word>li>h3{font:500 4em Raleway;color:rgba(255, 255, 255, 0.57);}
+.wrap>.banner>.banner-info>ul.word>li>span{display:block;width:1140px;height:14px;margin:22px 0px;font:800 15px Roboto Condensed;letter-spacing: 9px;}
+.wrap>.banner>.banner-info>ul.word>li>p{width:680px;font:500 .9em Roboto Condensed;margin:0px auto;}
+.wrap>.banner>.banner-info>ul.dot{width:60px;height:24px;margin:400px auto;}
+.wrap>.banner>.banner-info>ul.dot>li{width:6px;height:6px;float:left;border:2px solid white;
+	border-radius:50%;background:white;margin:5px;}
+.wrap>.banner>.banner-info>ul.dot>li:first-child{background:#bdcd00;}
+
+/*body*/
+.wrap>.welcome{width:1400px;height:313px;padding:64px 0px;overflow:hidden;}
+.wrap>.welcome>.wel-content{width:1140px;height:313px;margin:0 auto;text-align:center;}
+.wrap>.welcome>.wel-content>.wel-left{width:445px;height:265px;font:500 3em 'Playball';float:left;position:relative;}
+.wrap>.welcome>.wel-content>.wel-right{width:635;height:313px;float:right;background:red;position:relative;}
+.wrap>.welcome>.wel-content>.wel-right>img.imgone{width:234px;height:313px;position:absolute;right:400px;}
+.wrap>.welcome>.wel-content>.wel-right>img.imgtwo{width:340px;height:226px;position:absolute;top:50px;right:150px;}
+
+
+.wrap>.service{width:1400px;height:541px;background:#3b363d;opacity:0;}
+.wrap>.service>.ser-content{width:1140px;height:413px;padding:64px 0px;margin:0 auto;}
+.wrap>.service>.ser-content>.ser-left{width:380px;height:208px;float:left;}
+.wrap>.service>.ser-content>.ser-right{width:760px;height:413px;float:right;background:white;}
+.wrap>.service>.ser-content>.ser-right>ul{width:728px;}
+.wrap>.service>.ser-content>.ser-right>ul>li{width:322px;height:158px;padding:16px;float:left;}
+.wrap>.service>.ser-content>.ser-right>ul>li>img{width:34px;height:34px;}
+.wrap>.service>.ser-content>.ser-right>ul>li>h4{font:600 1em Roboto Condensed;}
+
+
+.wrap>.news{width:1400px;height:251px;padding:64px 0px;}
+.wrap>.news>.new-content{width:1140px;height:251px;margin:0 auto;position:relative;}
+.wrap>.news>.new-content>.new-left{width:350px;height:208px;padding:0px 15px;float:left;}
+.wrap>.news>.new-content>.new-left>p{position:absolute;width:350px;height:125px;}
+.wrap>.news>.new-content>.new-left>h3{position:absolute;width:350px;height:170px;}
+.wrap>.news>.new-content>.new-left>h3>span{color:#212121;font:50px 'Playball', cursive;text-indent:2em;}
+
+.wrap>.news>.new-content>.grape{width:380px;height:250px;background:#bdcd00;position:absolute;left:430px;}
+.grape-img{width:182px;height:250px;float:left;overflow:hidden;}
+.grape-img>img{width:100%;height:100%;vertical-align:middle;transition:all 0.2s linear;}
+.grape-img>img:hover{width:200px;height:274px;transform:scale(1.2);}
+.grape-info{width:150px;height:155px;float:right;padding:48px 16px;}
+.grape-info>span{color:white;}
+.grape-info>h5{font:600 1em Roboto Condensed;}
+.grape-info>h5>a{color:black;}
+.grape-info>h5>a:hover{color:orange;}
+.grape-info>p{color:white;margin:14px;}
+.grape-info>img{width:14px;height:14px;}
+.orange{width:380px;height:250px;background:#B3BF06;position:absolute;left:830px;}
+
+.green-title{ color:#B3BF06;font:50px 'Playball', cursive;}
+.black-title{color:#212121;font:50px 'Playball', cursive;}
+.white-title{color:white;font:50px 'Playball', cursive;text-indent:2em;}
+.lightgray-word{color:#999999;font:14px Roboto Condensed;line-height:1.8em;text-align:left;}
+
+.green-more{width:90px;height:35px;background:#bdcd00;line-height:35px;margin:30px auto;border:1px solid #bdcd00;position:relative;top:300px;}
+.green-more:hover{background:transparent;border:1px solid white;}
+.green-more>a{color:black;font:12px arial;}
+.green-more:hover>a{color:white;}
+.white-more{width:80px;height:35px;line-height:35px;border:1px solid white;margin:40px auto;}
+.white-more>a{color:white;font:12px arial;}
+.white-more:hover{border:1px solid #bdcd00;background:#bdcd00;}
+.black-more{width:80px;height:30px;line-height:5px;margin:30px auto;border:1px solid black;}
+.black-more:hover{border:1px solid #bdcd00;background:#bdcd00;}
+.black-more>a{color:black;font:9px arial;}
+
+
+
+

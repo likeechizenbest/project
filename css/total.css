@@ -1,0 +1,36 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+ul{list-style:none;}
+/*header*/
+div.wrap>.banner{width:1400px;height:186px;background:url(../images/bg2.jpg);z-index:99;}
+div.wrap>.banner>.header{width:1400px;height:60px;padding:16px 0px;margin:0px auto;}
+div.wrap>.banner>.header>.head-content{width:1140px;height:60px;margin:0 auto;}
+sup {font:300 14px arial;top:-2em;color:white;position:relative;}
+div.wrap>.banner>.header>.head-content>.icon{width:160px;height:38px;float:right;position:relative;top:30px;}
+div.wrap>.banner>.header>.head-content>.icon>ul>li{width:18px;height:18px;float:left;margin:5px;}
+div.wrap>.banner>.header>.head-content>.icon>ul>li:hover{opacity:0.6;}
+div.wrap>.banner>.header>.head-content>.icon>ul>li>a>img{width:18px;height:18px;}
+div.wrap>.banner>.navbar{width:1110px;height:54px;padding:15px 0px;margin:0 auto;}
+div.wrap>.banner>.navbar>a{display:block;width:150px;height:20px;float:left;border:1px solid rgba(255,255,255,0.54);
+	padding:16px;font:600 1em Roboto Condensed;color:white;text-align:center;letter-spacing:1px;transition:background 0.3s linear;}
+div.wrap>.banner>.navbar>a:hover{background:rgba(255, 255, 255, 0.78);color:black;}
+
+div.wrap>.banner>.header>.head-content>.icon>ul>li{width:18px;height:18px;float:left;margin:5px;}
+
+
+	
+.green-title{ color:#B3BF06;font:50px 'Playball', cursive;}
+.black-title{color:#212121;font:50px 'Playball', cursive;}
+.white-title{color:white;font:50px 'Playball', cursive;text-indent:2em;text-align:center;}
+.lightgray-word{color:#999999;font:14px Roboto Condensed;line-height:1.8em;text-align:left;}
+
+.green-more{width:90px;height:35px;background:#bdcd00;line-height:35px;margin:30px auto;border:1px solid #bdcd00;position:relative;top:300px;transition:background 0.3s linear;}
+.green-more:hover{background:transparent;border:1px solid white;}
+.green-more>a{color:black;font:12px arial;}
+.green-more:hover>a{color:white;}
+.white-more{width:118px;height:35px;line-height:35px;border:1px solid white;margin:40px auto;transition:background 0.3s linear;}
+.white-more>a{color:white;font:12px arial;}
+.white-more:hover{border:1px solid #bdcd00;background:#bdcd00;}
+.black-more{width:80px;height:30px;line-height:30px;margin:30px auto;border:1px solid black;text-align:center;transition:background 0.3s linear;}
+.black-more:hover{border:1px solid #bdcd00;background:#bdcd00;}
+.black-more>a{color:black;font:9px arial;}
